@@ -8,9 +8,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var socket_service_1 = require('../shared/socket.service');
-var HomeComponent = (function () {
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = require("@angular/core");
+var socket_service_1 = require("../shared/socket.service");
+var HomeComponent = /** @class */ (function () {
     function HomeComponent(_socketService) {
         this._socketService = _socketService;
         this.avatar = 'https://api.adorable.io/avatars/30/abott@adorable.png';
@@ -40,8 +41,8 @@ var HomeComponent = (function () {
             selector: 'ng-home',
             styleUrls: ['home.styles.css'],
             templateUrl: 'home.template.html'
-        }), 
-        __metadata('design:paramtypes', [socket_service_1.SocketService])
+        }),
+        __metadata("design:paramtypes", [socket_service_1.SocketService])
     ], HomeComponent);
     return HomeComponent;
 }());
